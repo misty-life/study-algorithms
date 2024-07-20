@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "Sorting/BubbleSort.cpp"
+#include "Sorting/SelectionSort.cpp"
 
 int main(void)
 {
@@ -11,7 +12,8 @@ int main(void)
     }
     std::cout << std::endl;
 
-    BubbleSort(array, 10);
+    // BubbleSort(array, 10);
+    SelectionSort(array, 10);
 
     for (int i = 0; i < 10; ++i) {
         std::cout << array[i] << ' ';
