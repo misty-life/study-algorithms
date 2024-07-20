@@ -3,4 +3,4 @@
 ### 목록
 - Sorting
     1) 버블 정렬 (Bubble Sorting)
-    2) 삽입 정렬 (Selection Sorting)
+    2) 선택 정렬 (Selection Sorting)
